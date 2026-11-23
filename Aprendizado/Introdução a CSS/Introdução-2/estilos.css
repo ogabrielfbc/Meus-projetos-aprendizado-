@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    height:1500px;
+    width: 1500px;
+    background-color: rgb(146, 109, 64);
+
+}
+
+.box1{
+    height:300px;
+    width: 300px;
+     background-image: linear-gradient(to right, rgb(37, 224, 0), rgb(0, 38, 255));
+}
+
+
+
+
+.box2{
+    height:300px;
+    width: 300px;
+    background-image: linear-gradient(to right, red,black);
+    margin-left: 10px;
+    padding: 10px;
+
+
+}
+
+.box3{
+    height:300px;
+    width: 300px;
+    background-image: linear-gradient(green,yellow);
+}
